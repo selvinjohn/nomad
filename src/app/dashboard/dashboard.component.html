@@ -1,0 +1,27 @@
+<button class="default btn" (click)="open()">Open</button>
+
+
+  <modal [animation]="animation" [size]="size" [keyboard]="keyboard" [backdrop]="backdrop" [cssClass]="cssClass" #myModal>
+    <modal-header>
+        <h4 class="modal-title">Select Template</h4>
+    </modal-header>
+    <modal-body>
+<div class="metro">
+<div class="example ">
+  <div class="col-md-offset-2">
+<div class="tile bg-cyan"></div>
+<div class="tile bg-cyan"></div>
+<div class="tile bg-cyan"></div>
+<div class="tile bg-cyan"></div>
+  </div>
+
+
+</div>
+ </div>
+ 
+    </modal-body>
+   <!-- <modal-footer>
+        <button type="button" class="btn btn-default" data-dismiss="modal" (click)="modal.dismiss()">Cancel</button>
+        <button type="button" class="btn btn-primary" (click)="modal.close()">Ok</button>
+    </modal-footer>-->
+</modal>

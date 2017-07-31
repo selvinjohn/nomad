@@ -1,0 +1,29 @@
+.metro .tile {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+  padding: 0;
+  cursor: pointer;
+  background-color: #eeeeee;
+  box-shadow: inset 0px 0px 1px #FFFFCC;
+}
+.metro .tile {
+  width: 120px;
+  height: 120px;
+  margin: 0 10px 10px 0;
+  background-color: #1ba1e2 !important;
+}
+.metro .tile:hover {
+  outline: #999999 solid 3px;
+}
+
+.example {
+    padding: 20px 40px 20px 60px;
+    border: 1px #ccc solid;
+    position: relative;
+    margin: 0 0 10px 0;
+    background-color: #fdfdfd !important;
+        min-height: 160px;
+}
