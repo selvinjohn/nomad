@@ -7,6 +7,35 @@ import { ModalComponent } from 'ng2-bs3-modal/ng2-bs3-modal';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  selectedTemplate:any;
+
+  onSelect(template){
+    this.selectedTemplate = template
+    // template.active = !template.active;
+  }
+
+  templates: any = [
+    {
+      name:"Post Card",
+      id:"1",
+      active:true
+    },
+    {
+      name:"Classic Right",
+      id:"2",
+      active:false
+    },
+    {
+      name:"Classic Left",
+      id:"3",
+      active:false
+    },
+    {
+      name:"Branded",
+      id:"4",
+      active:false
+    },
+  ];
 
   constructor() { }
 

@@ -19,6 +19,10 @@
   outline: #999999 solid 3px;
 }
 
+.metro .active {
+  outline: #999999 solid 3px;
+}
+
 .example {
     padding: 20px 40px 20px 60px;
     border: 1px #ccc solid;
@@ -26,4 +30,5 @@
     margin: 0 0 10px 0;
     background-color: #fdfdfd !important;
         min-height: 160px;
+            overflow: auto;
 }
