@@ -1,5 +1,12 @@
-<button class="default btn" (click)="open()">Open</button>
+<!-- <div class="row">
+  <div class="col-md-2" style="background-color:gray;height:80vh">
+  <button class="default btn" (click)="open()">Open</button>
+  </div>
+  <div class="col-md-10" class="container-wrapper" style="background-color:#b5c3b3;">
+         <simple-dnd></simple-dnd>
+  </div>
 
+</div>
 
 <modal [animation]="animation" [size]="size" [keyboard]="keyboard" [backdrop]="backdrop" [cssClass]="cssClass" #myModal>
   <modal-header>
@@ -29,36 +36,36 @@
 
         </div>
         <div class="form-horizontal">
-        <div class="form-group">
-          <label for="name" class="control-label col-md-3">Subject</label>
-          <div class="col-md-8">
-            <input type="text" class="form-control" required="required" name="name" id="name">
+          <div class="form-group">
+            <label for="name" class="control-label col-md-3">Subject</label>
+            <div class="col-md-8">
+              <input type="text" class="form-control" required="required" name="name" id="name">
+            </div>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="name" class="control-label col-md-3">Expeditor</label>
-          <div class="col-md-8">
-            <input type="text" class="form-control" required="required" name="name" id="name">
+          <div class="form-group">
+            <label for="name" class="control-label col-md-3">Expeditor</label>
+            <div class="col-md-8">
+              <input type="text" class="form-control" required="required" name="name" id="name">
+            </div>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="name" class="control-label col-md-3">Expeditor address</label>
-          <div class="col-md-8">
-            <input type="text" class="form-control" required="required" name="name" id="name">
+          <div class="form-group">
+            <label for="name" class="control-label col-md-3">Expeditor address</label>
+            <div class="col-md-8">
+              <input type="text" class="form-control" required="required" name="name" id="name">
+            </div>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="name" class="control-label col-md-3">Title</label>
-          <div class="col-md-8">
-            <input type="text" class="form-control" required="required" name="name" id="name">
+          <div class="form-group">
+            <label for="name" class="control-label col-md-3">Title</label>
+            <div class="col-md-8">
+              <input type="text" class="form-control" required="required" name="name" id="name">
+            </div>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="name" class="control-label col-md-3">Text</label>
-          <div class="col-md-8">
-            <input type="text" class="form-control" required="required" name="name" id="name">
+          <div class="form-group">
+            <label for="name" class="control-label col-md-3">Text</label>
+            <div class="col-md-8">
+              <input type="text" class="form-control" required="required" name="name" id="name">
+            </div>
           </div>
-        </div>
         </div>
       </div>
 
@@ -66,8 +73,76 @@
 
 
   </modal-body>
-  <!-- <modal-footer>
-        <button type="button" class="btn btn-default" data-dismiss="modal" (click)="modal.dismiss()">Cancel</button>
-        <button type="button" class="btn btn-primary" (click)="modal.close()">Ok</button>
-    </modal-footer>-->
-</modal>
+</modal> -->
+
+
+
+<div class="row">
+
+  <div class="col-md-2">
+    <p class="lead">Shop Name</p>
+    <div class="list-group">
+      <a href="#" class="list-group-item active">Category 1</a>
+      <a href="#" class="list-group-item">Category 2</a>
+      <a href="#" class="list-group-item">Category 3</a>
+    </div>
+  </div>
+
+  <div class="col-md-10">
+
+
+    <div class="well">
+
+       <simple-dnd></simple-dnd>
+
+      <div class="text-right">
+        <a class="btn btn-success">Leave a Review</a>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-12">
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star-empty"></span> Anonymous
+          <span class="pull-right">10 days ago</span>
+          <p>This product was great in terms of quality. I would definitely buy another!</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-12">
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star-empty"></span> Anonymous
+          <span class="pull-right">12 days ago</span>
+          <p>I've alredy ordered another one!</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-12">
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star-empty"></span> Anonymous
+          <span class="pull-right">15 days ago</span>
+          <p>I've seen some better than this, but not at this price. I definitely recommend this item.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

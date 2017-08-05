@@ -1,12 +1,12 @@
 import { Component, OnInit, ViewChild  } from '@angular/core';
 import { ModalComponent } from 'ng2-bs3-modal/ng2-bs3-modal';
-
+import * as $ from 'jquery';
 @Component({
-  selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  
   selectedTemplate:any;
 
   onSelect(template){
@@ -40,6 +40,17 @@ export class DashboardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+  var windowHeight = window.innerHeight;
+
+var navHeight = $('nav.navbar').height()+1;
+
+var finalHeight = (windowHeight-navHeight)-60;
+	    
+$("#panel-wrapper").css("height", finalHeight +"px");
+$(".container-wrapper").css("height", finalHeight +"px");
+
+
   }
 
   @ViewChild('myModal')
